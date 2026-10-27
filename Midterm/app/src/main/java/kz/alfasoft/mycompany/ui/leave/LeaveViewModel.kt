@@ -33,10 +33,8 @@ data class LeaveUiState(
     val loaded: Boolean = false,
     val balance: LeaveBalance = LeaveBalance(0, 0, 0),
     val requests: List<LeaveRequest> = emptyList(),
-    /** Новые операции сверху, уже с учётом фильтра. */
     val ledger: List<LedgerEntry> = emptyList(),
     val filter: LedgerFilter = LedgerFilter.ALL,
-    /** У сотрудника без руководителя (гендиректор) заявок на отпуск нет. */
     val canRequestLeave: Boolean = false,
     val cancellingId: Int? = null,
 )
