@@ -1,0 +1,14 @@
+*.iml
+.gradle/
+.idea/
+.kotlin/
+local.properties
+captures/
+app/src/test/
+build/
+.externalNativeBuild/
+.cxx/
+*.apk
+*.ap_
+*.aab
+output-metadata.json
